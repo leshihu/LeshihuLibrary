@@ -13,6 +13,6 @@ jobs :
       - name: List file in Directory
         run: ls
       - name: Check Dotnet Cli
-        run: dotnet
+        run: dotnet --version
       - name: Check NPM Cli
-        run: npm
+        run: npm --version
