@@ -12,6 +12,6 @@ jobs :
       #   who-to-greet: 'Mona the Octocat!'
       # id: hello
       - name: Print Current Directory
-      run: pwd
+        run: pwd
       - name: List file in Directory
-      run: pwd
+        run: ls
